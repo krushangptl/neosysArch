@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo pacman -S tmux
+sudo pacman -S --noconfirm tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
